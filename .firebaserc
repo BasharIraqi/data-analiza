@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "data-analiza": {
+      "hosting": {
+        "data-analiza": [
+          "data-analiza"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "data-analiza"
+  }
+}
