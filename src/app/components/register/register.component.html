@@ -1,1 +1,30 @@
-<p>register works!</p>
+<main class="form-signup w-100 m-auto">
+    <img class="img-fluid p-4" src="../../../assets/brand/brandIcon.jpeg" alt="brand icon">
+    <form>
+
+        <h1 class="h3 mb-3 text-dark text-center">Please fill your details</h1>
+        <div class="form-floating p-1">
+            <input type="text" class="form-control" id="firstName" placeholder="FirstName">
+            <label for="firstName">First name</label>
+        </div>
+        <div class="form-floating p-1">
+            <input type="text" class="form-control" id="lastName" placeholder="LastName">
+            <label for="lastName">Last name</label>
+        </div>
+        <div class="form-floating p-1">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            <label for="email">Email address</label>
+        </div>
+        <div class="form-floating p-1">
+            <input type="password" class="form-control" id="Password" placeholder="Password">
+            <label for="Password">password</label>
+        </div>
+        <div class="form-floating p-1 mb-3">
+            <input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password">
+            <label for="confirmPassword">Confirm password</label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-danger" type="submit">Sign up</button>
+    </form>
+    <p class="p-3">already have an account? <a class="text-primary" routerLink="/logIn"> Sign In</a></p>
+</main>

@@ -8,9 +8,5 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
 
 
-  isShowDivIf = true;
-  toggleDisplayDivIf() {
-    this.isShowDivIf = !this.isShowDivIf;
-  }
-
+ public isMenuCollapsed:boolean = true;
 }
