@@ -27,6 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
 
 
 @NgModule({
@@ -37,7 +39,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     HomeComponent,
     DashboardComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    SidenavComponent,
+    ResetPasswordComponent
   ],
   imports: [
     BrowserModule,

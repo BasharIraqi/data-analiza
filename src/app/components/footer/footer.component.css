@@ -1,4 +1,8 @@
 .clear{
     clear: both;
-    height: 22vh;
+    height: 20vh;
+}
+
+img{
+    width: 7rem;
 }
