@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -8,5 +9,13 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class LoginComponent {
 
+  constructor(private store:AngularFirestore){
+
+  }
+
+  onSubmit(user:NgForm){
+
+
+  }
   
 }

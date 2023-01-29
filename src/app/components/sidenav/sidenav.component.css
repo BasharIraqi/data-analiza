@@ -6,6 +6,14 @@ main {
   overflow-y: hidden;
 }
 
+#bold:hover{
+  background-color:cyan;
+}
+
+.distance{
+height: 20vh;
+}
+
 .dropdown-toggle { outline: 0; }
 
 .btn-toggle {

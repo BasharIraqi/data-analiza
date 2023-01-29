@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-
  public isMenuCollapsed:boolean = true;
+ isLoggedIn:boolean=false;
 }

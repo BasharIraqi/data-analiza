@@ -25,10 +25,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { ResetPasswordComponent } from './components/reset-password/reset-password.component';
+import { WelocmePageComponent } from './components/welocme-page/welocme-page.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 
 @NgModule({
@@ -40,8 +42,10 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
     DashboardComponent,
     NavbarComponent,
     FooterComponent,
-    SidenavComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    WelocmePageComponent,
+    ProfileComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -53,6 +57,7 @@ import { ResetPasswordComponent } from './components/reset-password/reset-passwo
     ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAnalytics(() => getAnalytics()),
     provideAuth(() => getAuth()),
